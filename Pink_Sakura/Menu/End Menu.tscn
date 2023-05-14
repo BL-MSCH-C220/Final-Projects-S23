@@ -1,0 +1,51 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://Assets/Prociono.ttf" type="DynamicFontData" id=1]
+[ext_resource path="res://Menu/End Menu.gd" type="Script" id=2]
+
+[sub_resource type="DynamicFont" id=1]
+size = 50
+outline_size = 2
+outline_color = Color( 0.988235, 0.513726, 0.658824, 1 )
+font_data = ExtResource( 1 )
+
+[sub_resource type="DynamicFont" id=2]
+size = 25
+outline_size = 1
+outline_color = Color( 0.988235, 0.513726, 0.658824, 1 )
+font_data = ExtResource( 1 )
+
+[sub_resource type="DynamicFont" id=3]
+size = 35
+outline_size = 2
+outline_color = Color( 0.988235, 0.513726, 0.658824, 1 )
+font_data = ExtResource( 1 )
+
+[node name="End Menu" type="Node2D"]
+script = ExtResource( 2 )
+
+[node name="Label" type="Label" parent="."]
+margin_left = 296.0
+margin_top = 150.0
+margin_right = 729.0
+margin_bottom = 212.0
+custom_fonts/font = SubResource( 1 )
+text = "When We First Met"
+
+[node name="Quit" type="Button" parent="."]
+margin_left = 412.0
+margin_top = 350.0
+margin_right = 612.0
+margin_bottom = 400.0
+custom_fonts/font = SubResource( 2 )
+text = "Quit"
+
+[node name="Label2" type="Label" parent="."]
+margin_left = 453.0
+margin_top = 232.0
+margin_right = 572.0
+margin_bottom = 276.0
+custom_fonts/font = SubResource( 3 )
+text = "The end"
+
+[connection signal="pressed" from="Quit" to="." method="_on_Quit_pressed"]

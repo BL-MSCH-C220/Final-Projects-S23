@@ -1,0 +1,750 @@
+{
+	"events": [
+		{
+			"background": "res://Assets/Classroom.jpg",
+			"event_id": "dialogic_021"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Assets/school_bell.wav",
+			"volume": -10
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[School bell ringing]"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681932524.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"animation": "slide_in_right.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681933202.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1681933202.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "…So then I showed her my forklift certification, and she STILL wasn’t convinced!"
+		},
+		{
+			"character": "character-1681932524.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "That's crazy, dude."
+		},
+		{
+			"character": "character-1681933202.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "At this point, I don’t know what else I can do! I wish I could get a girl like you did, man…"
+		},
+		{
+			"character": "character-1681932524.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Well, it’s not all that it’s cracked up to be, really."
+		},
+		{
+			"character": "character-1681933202.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Dude, are you serious? Amelia is like, the best girl in this school! EVERYBODY wants her. How can you still complain?"
+		},
+		{
+			"character": "character-1681932524.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "She just… irritates me. I wish she would do better."
+		},
+		{
+			"character": "character-1681933202.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "“Do better”!? She’s, like, PERFECT to you! She gives you nothing but the best! If you don’t appreciate her, why don’t you just break up with her?"
+		},
+		{
+			"character": "character-1681932524.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You’re just saying that because you want to be with her, aren’t you?"
+		},
+		{
+			"character": "character-1681933202.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Bro, for real? She’s way out of my league– heck, she’s way out of YOURS. And like, you’re awful to her, too. I can’t believe SHE hasn’t broken up with YOU."
+		},
+		{
+			"character": "character-1681932524.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "What? Come on, I’m a perfectly fine boyfriend, I’m just… feeling things out, y’know?"
+		},
+		{
+			"character": "character-1681933202.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Whatever man. I gotta get going. Oh, we’re still meeting up at my place later, right?"
+		},
+		{
+			"character": "character-1681932524.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Yeah, for sure."
+		},
+		{
+			"character": "character-1681933202.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Aight bet. Seeya, man!"
+		},
+		{
+			"animation": "slide_out_right.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681933202.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"character": "character-1681932524.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "(He left.)"
+		},
+		{
+			"character": "character-1681932524.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "(Why would she break up with me when SHE’S the problem? Danny really confuses me sometimes.)"
+		},
+		{
+			"character": "character-1681932524.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "(Oh God, Amelia is coming. I REALLY don’t want to have to put up with her right now…)"
+		},
+		{
+			"animation": "slide_in_right.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681933194.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1681932524.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "(What should I say?)"
+		},
+		{
+			"choice": "\"Please go away.\"",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1681933632-146",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "0"
+		},
+		{
+			"character": "character-1681933194.json",
+			"event_id": "dialogic_001",
+			"portrait": "Amelia_Sad",
+			"text": "Sorry, Are you busy? I won’t hold you for too long."
+		},
+		{
+			"character": "character-1681932524.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Well, that’s a relief."
+		},
+		{
+			"choice": "\"Not you again.\"",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1681933632-146",
+			"event_id": "dialogic_014",
+			"operation": "-",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"character": "character-1681933194.json",
+			"event_id": "dialogic_001",
+			"portrait": "Amelia_Sad",
+			"text": "Sorry, do I bother you too much? I’ll… try to keep that in mind."
+		},
+		{
+			"character": "character-1681932524.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "(She looks upset.)"
+		},
+		{
+			"choice": "\"Hey, Amelia...\"",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1681933632-146",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"character": "character-1681932524.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "(I might as well get this over with quickly.)"
+		},
+		{
+			"character": "character-1681933194.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Hiya, Trent! Good to see you!"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1681933194.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "So, I was just wondering if you wanted to do something with me today? It is Valentine’s Day, after all!"
+		},
+		{
+			"character": "character-1681932524.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "(It’s Valentine’s Day today? That’s news to me! Well, it can’t be helped, at this point. I already promised Danny I’d hang out with him.)"
+		},
+		{
+			"character": "character-1681932524.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "(What do I say?)"
+		},
+		{
+			"choice": "\"Honestly, I forgot. I already have plans.\"",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1681933632-146",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "0"
+		},
+		{
+			"character": "character-1681933194.json",
+			"event_id": "dialogic_001",
+			"portrait": "Amelia_Sad",
+			"text": "Oh… well, that’s disappointing, but I understand. You’re a busy guy; whatever you’ve got planned is probably important. I appreciate your honesty. We can wait."
+		},
+		{
+			"character": "character-1681932524.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "(“We can wait”? That just means I’m gonna have to go out with her later… ugh…)"
+		},
+		{
+			"choice": "\"I already promised to hang out with a friend, sorry.\"",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1681933632-146",
+			"event_id": "dialogic_014",
+			"operation": "-",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"character": "character-1681933194.json",
+			"event_id": "dialogic_001",
+			"portrait": "Amelia_Sad",
+			"text": "With… a friend?"
+		},
+		{
+			"character": "character-1681932524.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Yeah, sorry. Bros before h… well, you know how the saying goes."
+		},
+		{
+			"character": "character-1681933194.json",
+			"event_id": "dialogic_001",
+			"portrait": "Amelia_Sad",
+			"text": "That’s… okay, sorry."
+		},
+		{
+			"character": "character-1681932524.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "(She appears to be holding back tears.)"
+		},
+		{
+			"choice": "\"I can't do anything today, too much work to do.\"",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1681933632-146",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"character": "character-1681933194.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Is that so? Oh, I completely understand! School always comes first, I respect that! We can totally do something together another time!"
+		},
+		{
+			"character": "character-1681932524.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Or maybe not, who knows?"
+		},
+		{
+			"character": "character-1681933194.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "What?"
+		},
+		{
+			"character": "character-1681932524.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Nothing, just rambling, sorry."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1681933194.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Well, for the occasion, I got you a gift!"
+		},
+		{
+			"character": "character-1681932524.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh. Great…"
+		},
+		{
+			"character": "character-1681933194.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Glad you think so! Here it is!"
+		},
+		{
+			"character": "character-1681932524.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "(She pulled her hands out from behind her, a small, wrapped box. She handed it to me.)"
+		},
+		{
+			"character": "character-1681932524.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I… guess I should open it."
+		},
+		{
+			"character": "character-1681933194.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Of course! It’s all yours!"
+		},
+		{
+			"character": "character-1681932524.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "(Nervously, I unwrapped the box and opened it. Inside was a necklace with a locket on the end, with the letters “T&A” engraved in it. I should’ve known it was gonna be some corny bullcrap.)"
+		},
+		{
+			"character": "character-1681932524.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "(What do I say about this?)"
+		},
+		{
+			"choice": "\"I kinda prefer the one I have now...\"",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1681933632-146",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"character": "character-1681933194.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "True, that necklace is iconic to your look… are you implying that I should wear it? You’re so sweet! But really, I insist, you should keep it."
+		},
+		{
+			"character": "character-1681932524.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "(Gold medalist in mental gymnastics, she is…)"
+		},
+		{
+			"choice": "\"Uhh...thanks?\"",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1681933632-146",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "0"
+		},
+		{
+			"character": "character-1681933194.json",
+			"event_id": "dialogic_001",
+			"portrait": "Amelia_Sad",
+			"text": "O-of course! No problem!"
+		},
+		{
+			"character": "character-1681932524.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "(Maybe I could have been a little more convincing… nah. Don’t want to give her that idea.)"
+		},
+		{
+			"choice": "\"What do the letters stand for?\"",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1681933632-146",
+			"event_id": "dialogic_014",
+			"operation": "-",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"character": "character-1681933194.json",
+			"event_id": "dialogic_001",
+			"portrait": "Amelia_Sad",
+			"text": "Trent and Amelia… I thought it was pretty obvious…"
+		},
+		{
+			"character": "character-1681932524.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Y’know what? For once in a blue moon, that’s on me. I don’t know how I didn’t realize that."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1681933194.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Anyways… please treasure it, it cost me a lot."
+		},
+		{
+			"character": "character-1681932524.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Huh? Uh, yeah, of course. "
+		},
+		{
+			"character": "character-1681933194.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "I’ll be seeing you."
+		},
+		{
+			"animation": "slide_out_right.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681933194.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"character": "character-1681932524.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "(She smiled at me staring straight into my eyes, and then walked out of the room, seeming satisfied with herself. How could she think a stupid piece of metal matters this much?)"
+		},
+		{
+			"character": "character-1681932524.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "(After waiting long enough to know for sure that she’s gone, I got up to leave. But, as I approached the doorway, someone stepped in front of me.)"
+		},
+		{
+			"animation": "slide_in_right.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681933200.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1681933200.json",
+			"event_id": "dialogic_001",
+			"portrait": "Kate_Angry",
+			"text": "Seriously, Trent!? What was THAT!?"
+		},
+		{
+			"character": "character-1681932524.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ah. Kate. Always a pleasure."
+		},
+		{
+			"character": "character-1681932524.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "(Kate is Amelia’s best friend. She NEVER gets off my back...)"
+		},
+		{
+			"character": "character-1681933200.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Seriously, what is your deal? She does all of this nice stuff for you, and you don’t even TRY to reciprocate!"
+		},
+		{
+			"character": "character-1681932524.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Respectfully, it’s none of your business."
+		},
+		{
+			"character": "character-1681933200.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "..."
+		},
+		{
+			"character": "character-1681932524.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Actually, no. DISrespectfully, it’s none of your business."
+		},
+		{
+			"character": "character-1681933200.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You’re the worst! I might just convince her to break up with you!"
+		},
+		{
+			"character": "character-1681932524.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Don’t threaten me with a good time."
+		},
+		{
+			"character": "character-1681933200.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ugh!"
+		},
+		{
+			"animation": "slide_out_right.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681933200.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"character": "character-1681932524.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "(She scoffed at me, then stormed out of the room. If she wants to work herself up over nothing, then fine.)"
+		},
+		{
+			"character": "character-1681932524.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "(I left the school, and drove myself down to Danny’s house.)"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681932524.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"background": "res://Assets/black-background.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"change_timeline": "timeline-1681937601.json",
+			"event_id": "dialogic_020"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1681935008.json",
+		"name": "School"
+	}
+}

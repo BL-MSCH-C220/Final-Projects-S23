@@ -1,0 +1,109 @@
+{
+	"events": [
+		{
+			"background": "res://Assets/black-background.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Assets/alarm_clock.wav",
+			"volume": -10
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[ALARM CLOCK]"
+		},
+		{
+			"background": "res://Assets/Bedroom.jpg",
+			"event_id": "dialogic_021"
+		},
+		{
+			"animation": "slide_in_left.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681932524.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1681932524.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "(I woke up. Great. But, unlike every other morning, the text message on my phone was a little bit different than normal…)"
+		},
+		{
+			"character": "character-1681932524.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Why have I not blocked her yet?"
+		},
+		{
+			"character": "character-1681932524.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "(I opened the message, and didn’t know how to feel about what I read.)"
+		},
+		{
+			"character": "character-1681944906.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\"Hey, we need to talk… meet me after school today.\""
+		},
+		{
+			"character": "character-1681932524.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "(This is a once in a lifetime moment where it seems like she actually has something important to say, so I guess I’ll go see her after school. Still, though, what a pain…)"
+		},
+		{
+			"animation": "slide_out_left.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681932524.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"background": "res://Assets/black-background.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"change_timeline": "timeline-1681939697.json",
+			"event_id": "dialogic_020"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1681939527.json",
+		"name": "Bedroom"
+	}
+}

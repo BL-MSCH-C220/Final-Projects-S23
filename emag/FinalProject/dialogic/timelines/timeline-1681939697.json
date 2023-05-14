@@ -1,0 +1,645 @@
+{
+	"events": [
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Assets/school_bell.wav",
+			"volume": -10
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[School Bell]"
+		},
+		{
+			"background": "res://Assets/Classroom.jpg",
+			"event_id": "dialogic_021"
+		},
+		{
+			"animation": "slide_in_left.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681932524.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1681932524.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "(After the school bell rang, I waited in my seat, knowing that Amelia would be coming. And, like a moth to a flame, she did.)"
+		},
+		{
+			"animation": "slide_in_right.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681933194.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1681933194.json",
+			"event_id": "dialogic_001",
+			"portrait": "Amelia_Sad",
+			"text": "Hey, Trent…"
+		},
+		{
+			"character": "character-1681932524.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "What’s this about?"
+		},
+		{
+			"character": "character-1681932524.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "(C’mon, enough drama, get to the point.)"
+		},
+		{
+			"character": "character-1681933194.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "It’s just that…"
+		},
+		{
+			"condition": ">=",
+			"definition": "1681933632-146",
+			"event_id": "dialogic_012",
+			"value": "3"
+		},
+		{
+			"character": "character-1681933194.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "…I just wanted to remind you how much I love you."
+		},
+		{
+			"character": "character-1681932524.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "(What!? How has she not left me yet? I’m not gonna be the one to do it.)"
+		},
+		{
+			"character": "character-1681933194.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You’re not perfect, but you do what’s best for me, and I really appreciate that. And it’s important to know that you’re appreciated, so I thought I’d let you know."
+		},
+		{
+			"character": "character-1681932524.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Um… thank you?"
+		},
+		{
+			"character": "character-1681933194.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I’m sorry for accusing you of cheating; I know you would never do that."
+		},
+		{
+			"character": "character-1681932524.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "(Believe me, I would jump at the opportunity…)"
+		},
+		{
+			"character": "character-1681932524.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Is that all?"
+		},
+		{
+			"character": "character-1681933194.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Yeah… that’s all. I love you. Don’t forget that."
+		},
+		{
+			"animation": "slide_out_right.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681933194.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"character": "character-1681932524.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "(She smiled at me, then left the room.)"
+		},
+		{
+			"character": "character-1681932524.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I’m gonna spend the rest of my life trying to forget…"
+		},
+		{
+			"animation": "slide_in_right.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681933202.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1681932524.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "(Soon after, Danny approached me.)"
+		},
+		{
+			"character": "character-1681933202.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "God, you’re so lucky, dude…"
+		},
+		{
+			"character": "character-1681932524.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I wish you could take her off my hands…"
+		},
+		{
+			"animation": "5-fade_out_down.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "[All]",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"background": "res://Assets/black-background.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "THE END."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "<=",
+			"definition": "1681933632-146",
+			"event_id": "dialogic_012",
+			"value": "-3"
+		},
+		{
+			"character": "character-1681933194.json",
+			"event_id": "dialogic_001",
+			"portrait": "Amelia_Angry",
+			"text": "…I’m SICK of you! No matter what I do, you’re always just such a jerk! You don’t care about me at all!"
+		},
+		{
+			"character": "character-1681932524.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "(I have been waiting for this moment for months. An indescribable euphoria washed over my body.)"
+		},
+		{
+			"character": "character-1681932524.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh. That’s a shame."
+		},
+		{
+			"character": "character-1681933194.json",
+			"event_id": "dialogic_001",
+			"portrait": "Amelia_Angry",
+			"text": "Yeah, maybe for you! I’ve never felt more liberated!"
+		},
+		{
+			"character": "character-1681932524.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "(Trust me, we are singing the same tune…)"
+		},
+		{
+			"character": "character-1681933194.json",
+			"event_id": "dialogic_001",
+			"portrait": "Amelia_Angry",
+			"text": "Besides, I’ve had my eyes on someone else for a long time anyways."
+		},
+		{
+			"character": "character-1681932524.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Huh?"
+		},
+		{
+			"animation": "bouncing_in.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681933200.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1681932524.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "(As if on cue, Kate entered the classroom. The two of them locked hands, and kissed. I heard audible gasps from around the classroom.)"
+		},
+		{
+			"character": "character-1681932524.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Uh… congrats? I didn’t even know you were bisexual."
+		},
+		{
+			"character": "character-1681933200.json",
+			"event_id": "dialogic_001",
+			"portrait": "Kate_Angry",
+			"text": "Well that just goes to show how much you cared about her, doesn’t it?"
+		},
+		{
+			"character": "character-1681932524.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "..."
+		},
+		{
+			"character": "character-1681933194.json",
+			"event_id": "dialogic_001",
+			"portrait": "Amelia_Angry",
+			"text": "Goodbye, Trent. I never want to see you again."
+		},
+		{
+			"character": "character-1681933200.json",
+			"event_id": "dialogic_001",
+			"portrait": "Kate_Angry",
+			"text": "Rot in hell."
+		},
+		{
+			"animation": "slide_out_right.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681933194.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"animation": "slide_out_right.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681933200.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"character": "character-1681932524.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "(The two of them left, with their hands still locked together. Once I was sure they were both gone, I breathed a sigh of relief bigger than I thought was possible.)"
+		},
+		{
+			"character": "character-1681932524.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Free at last…"
+		},
+		{
+			"character": "character-1681932524.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "(Soon after, Danny entered, and he seemed to know most of what just went down.)"
+		},
+		{
+			"animation": "slide_in_right.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681933202.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Danny_Frown",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1681933202.json",
+			"event_id": "dialogic_001",
+			"portrait": "Danny_Frown",
+			"text": "It was inevitable, dude. Don’t get too bent out of shape about it."
+		},
+		{
+			"character": "character-1681932524.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Trust me Danny. This is the greatest day of my life."
+		},
+		{
+			"animation": "4-fade_out.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "[All]",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"background": "res://Assets/black-background.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "THE END."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": ">",
+			"definition": "1681933632-146",
+			"event_id": "dialogic_012",
+			"value": "-3"
+		},
+		{
+			"condition": "<",
+			"definition": "1681933632-146",
+			"event_id": "dialogic_012",
+			"value": "3"
+		},
+		{
+			"character": "character-1681933194.json",
+			"event_id": "dialogic_001",
+			"portrait": "Amelia_Sad",
+			"text": "Listen, I think that we should just be friends."
+		},
+		{
+			"character": "character-1681932524.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "(I perked up like a dog who just heard the treat bag rustle. But, I’m conflicted.)"
+		},
+		{
+			"character": "character-1681932524.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I’d prefer it if we weren’t friends, to be honest."
+		},
+		{
+			"character": "character-1681933194.json",
+			"event_id": "dialogic_001",
+			"portrait": "Amelia_Sad",
+			"text": "Yeah… I know that you must still want to be in a relationship. But I think it’s best that we see other people."
+		},
+		{
+			"character": "character-1681932524.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "(Not at ALL what I meant…)"
+		},
+		{
+			"character": "character-1681932524.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Well, if you think so, then I’ll oblige."
+		},
+		{
+			"character": "character-1681933194.json",
+			"event_id": "dialogic_001",
+			"portrait": "Amelia_Sad",
+			"text": "Thank you so much for understanding."
+		},
+		{
+			"animation": "slide_out_right.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681933194.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"character": "character-1681932524.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "(She looked at me with a somewhat somber look in her eyes, then left the room. Soon after, Danny approached me, seemingly having seen the whole ordeal.)"
+		},
+		{
+			"animation": "slide_in_right.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681933202.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1681933202.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Dude… I hate to say I told you so, but…"
+		},
+		{
+			"character": "character-1681932524.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Well, now that I’m single, are you SURE you and I can’t give it a shot?"
+		},
+		{
+			"character": "character-1681933202.json",
+			"event_id": "dialogic_001",
+			"portrait": "Danny_Frown",
+			"text": "What?"
+		},
+		{
+			"character": "character-1681932524.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "What?"
+		},
+		{
+			"animation": "4-fade_out.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "[All]",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"background": "res://Assets/black-background.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "THE END."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"change_scene": "res://End.tscn",
+			"event_id": "dialogic_041"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1681939697.json",
+		"name": "Classroom"
+	}
+}

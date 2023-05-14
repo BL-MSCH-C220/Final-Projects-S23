@@ -1,0 +1,58 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://UI/buttons.tres" type="Theme" id=1]
+[ext_resource path="res://Assets/medieval_fartbrass.ogg" type="AudioStream" id=2]
+[ext_resource path="res://Assets/Pixelcastle-Regular.otf" type="DynamicFontData" id=3]
+[ext_resource path="res://UI/End.gd" type="Script" id=4]
+
+[sub_resource type="DynamicFont" id=1]
+size = 49
+outline_size = 3
+outline_color = Color( 0.403922, 0.12549, 0.12549, 1 )
+font_data = ExtResource( 3 )
+
+[node name="End" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 4 )
+
+[node name="ColorRect" type="ColorRect" parent="."]
+margin_right = 1920.0
+margin_bottom = 880.0
+color = Color( 0.0627451, 0.0588235, 0.109804, 0.843137 )
+
+[node name="Label" type="Label" parent="."]
+margin_right = 1920.0
+margin_bottom = 880.0
+custom_fonts/font = SubResource( 1 )
+text = "Congrats! You saved the kindom! 
+
+You managed to defeat the evil king of the past! And in his death, a new king arose. 
+One wiser, more graceful, and much more merciful.
+Now, the world is blooming and thriving, with you to thank for it"
+align = 1
+valign = 1
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 2 )
+volume_db = -9.905
+autoplay = true
+
+[node name="Play Again" type="Button" parent="."]
+margin_left = 581.0
+margin_top = 659.0
+margin_right = 809.0
+margin_bottom = 703.0
+theme = ExtResource( 1 )
+text = "Play Again?"
+
+[node name="Quit" type="Button" parent="."]
+margin_left = 1117.0
+margin_top = 661.0
+margin_right = 1205.0
+margin_bottom = 705.0
+theme = ExtResource( 1 )
+text = "Quit"
+
+[connection signal="pressed" from="Play Again" to="." method="_on_Play_Again_pressed"]
+[connection signal="pressed" from="Quit" to="." method="_on_Quit_pressed"]

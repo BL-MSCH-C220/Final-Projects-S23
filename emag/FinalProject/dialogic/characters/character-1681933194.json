@@ -1,0 +1,29 @@
+{
+	"color": "#ffff00dd",
+	"description": "",
+	"display_name": "Amelia",
+	"display_name_bool": true,
+	"id": "character-1681933194.json",
+	"mirror_portraits": false,
+	"name": "Amelia",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 10,
+	"offset_y": 0,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://Assets/character/Amelia.png"
+		},
+		{
+			"name": "Amelia_Angry",
+			"path": "res://Assets/character/Amelia_Angry.png"
+		},
+		{
+			"name": "Amelia_Sad",
+			"path": "res://Assets/character/Amelia_Sad.png"
+		}
+	],
+	"scale": 10,
+	"theme": ""
+}

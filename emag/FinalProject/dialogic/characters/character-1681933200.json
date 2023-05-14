@@ -1,0 +1,25 @@
+{
+	"color": "#ff12c7ff",
+	"description": "",
+	"display_name": "Kate",
+	"display_name_bool": true,
+	"id": "character-1681933200.json",
+	"mirror_portraits": false,
+	"name": "Kate",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": 0,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://Assets/character/Kate.png"
+		},
+		{
+			"name": "Kate_Angry",
+			"path": "res://Assets/character/Kate_Angry.png"
+		}
+	],
+	"scale": 10,
+	"theme": ""
+}

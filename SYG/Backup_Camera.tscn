@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Levels/Backup_Camera.gd" type="Script" id=1]
+
+[node name="Backup_Camera" type="Camera2D"]
+anchor_mode = 0
+script = ExtResource( 1 )
+
+[node name="Fade" type="ColorRect" parent="."]
+visible = false
+margin_right = 40.0
+margin_bottom = 40.0
+color = Color( 0, 0, 0, 1 )

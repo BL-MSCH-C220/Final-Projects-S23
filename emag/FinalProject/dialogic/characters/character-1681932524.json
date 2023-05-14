@@ -1,0 +1,21 @@
+{
+	"color": "#ffe70000",
+	"description": "",
+	"display_name": "Trent",
+	"display_name_bool": true,
+	"id": "character-1681932524.json",
+	"mirror_portraits": false,
+	"name": "Trent",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": -10,
+	"offset_y": 0,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://Assets/character/Trent.png"
+		}
+	],
+	"scale": 10,
+	"theme": ""
+}

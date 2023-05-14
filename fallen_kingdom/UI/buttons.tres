@@ -1,0 +1,92 @@
+[gd_resource type="Theme" load_steps=8 format=2]
+
+[ext_resource path="res://Assets/PixelifySans-Medium.ttf" type="DynamicFontData" id=1]
+
+[sub_resource type="DynamicFont" id=34]
+size = 40
+outline_size = 2
+outline_color = Color( 0, 0, 0, 1 )
+font_data = ExtResource( 1 )
+
+[sub_resource type="StyleBoxFlat" id=35]
+bg_color = Color( 0.345098, 0.0666667, 0.0666667, 1 )
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color( 0.858824, 0.615686, 0, 1 )
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+shadow_color = Color( 0, 0, 0, 0.792157 )
+shadow_size = 4
+shadow_offset = Vector2( 2, 2 )
+
+[sub_resource type="StyleBoxFlat" id=36]
+bg_color = Color( 0.345098, 0.0666667, 0.0666667, 1 )
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color( 0.858824, 0.615686, 0, 1 )
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+shadow_color = Color( 0, 0, 0, 0.792157 )
+shadow_size = 4
+shadow_offset = Vector2( 2, 2 )
+
+[sub_resource type="StyleBoxFlat" id=40]
+bg_color = Color( 0.219608, 0.0666667, 0.0666667, 1 )
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color( 0.858824, 0.615686, 0, 1 )
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+shadow_color = Color( 0, 0, 0, 0.792157 )
+shadow_size = 4
+shadow_offset = Vector2( 2, 2 )
+
+[sub_resource type="StyleBoxFlat" id=38]
+bg_color = Color( 0.345098, 0.0666667, 0.0666667, 1 )
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color( 0.858824, 0.615686, 0, 1 )
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+shadow_color = Color( 0, 0, 0, 0.792157 )
+shadow_size = 4
+shadow_offset = Vector2( 2, 2 )
+
+[sub_resource type="StyleBoxFlat" id=39]
+bg_color = Color( 0.219608, 0.0666667, 0.0666667, 1 )
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color( 0.635294, 0.462745, 0.0235294, 1 )
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+shadow_color = Color( 0, 0, 0, 0.792157 )
+shadow_size = 4
+shadow_offset = Vector2( 2, 2 )
+
+[resource]
+Button/fonts/font = SubResource( 34 )
+Button/styles/disabled = SubResource( 35 )
+Button/styles/focus = SubResource( 36 )
+Button/styles/hover = SubResource( 40 )
+Button/styles/normal = SubResource( 38 )
+Button/styles/pressed = SubResource( 39 )

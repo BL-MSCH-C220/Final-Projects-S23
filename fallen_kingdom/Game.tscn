@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://StateMachine/Player_Container.gd" type="Script" id=1]
+[ext_resource path="res://Assets/Sound/Music/PlaceholderMusic.mp3" type="AudioStream" id=2]
+
+[node name="Game" type="Node2D"]
+
+[node name="Player_Container" type="Node2D" parent="."]
+script = ExtResource( 1 )
+
+[node name="Music" type="AudioStreamPlayer" parent="Player_Container"]
+stream = ExtResource( 2 )

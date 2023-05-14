@@ -1,0 +1,71 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://Assets/Prociono.ttf" type="DynamicFontData" id=1]
+[ext_resource path="res://Menu/Main Menu.gd" type="Script" id=2]
+[ext_resource path="res://Assets/Barista.PNG" type="Texture" id=3]
+[ext_resource path="res://Assets/IMG_0702.PNG" type="Texture" id=4]
+[ext_resource path="res://Assets/Theme Song.mp3" type="AudioStream" id=5]
+
+[sub_resource type="DynamicFont" id=1]
+size = 50
+outline_size = 2
+outline_color = Color( 0.988235, 0.513726, 0.658824, 1 )
+font_data = ExtResource( 1 )
+
+[sub_resource type="DynamicFont" id=2]
+size = 25
+outline_size = 1
+outline_color = Color( 0.988235, 0.513726, 0.658824, 1 )
+font_data = ExtResource( 1 )
+
+[node name="Main Menu" type="Node2D"]
+script = ExtResource( 2 )
+
+[node name="ColorRect" type="ColorRect" parent="."]
+margin_left = -134.0
+margin_top = -299.0
+margin_right = 1166.0
+margin_bottom = 1001.0
+color = Color( 0.603922, 0.235294, 0.313726, 1 )
+
+[node name="Label" type="Label" parent="."]
+margin_left = 296.0
+margin_top = 150.0
+margin_right = 729.0
+margin_bottom = 212.0
+custom_fonts/font = SubResource( 1 )
+text = "When We First Met"
+
+[node name="Play" type="Button" parent="."]
+margin_left = 412.0
+margin_top = 275.0
+margin_right = 612.0
+margin_bottom = 325.0
+custom_fonts/font = SubResource( 2 )
+text = "Play"
+
+[node name="Quit" type="Button" parent="."]
+margin_left = 412.0
+margin_top = 350.0
+margin_right = 612.0
+margin_bottom = 400.0
+custom_fonts/font = SubResource( 2 )
+text = "Quit"
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 175, 368 )
+scale = Vector2( 0.075, 0.075 )
+texture = ExtResource( 3 )
+
+[node name="Sprite2" type="Sprite" parent="."]
+position = Vector2( 872, 367 )
+scale = Vector2( 0.075, 0.075 )
+texture = ExtResource( 4 )
+flip_h = true
+
+[node name="Music" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 5 )
+autoplay = true
+
+[connection signal="pressed" from="Play" to="." method="_on_Play_pressed"]
+[connection signal="pressed" from="Quit" to="." method="_on_Quit_pressed"]

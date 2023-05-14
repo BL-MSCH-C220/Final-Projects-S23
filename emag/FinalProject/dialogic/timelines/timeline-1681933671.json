@@ -1,0 +1,233 @@
+{
+	"events": [
+		{
+			"background": "res://Assets/black-background.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Assets/alarm_clock.wav",
+			"volume": -10
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[Alarm Clock Sounds]"
+		},
+		{
+			"background": "res://Assets/Bedroom.jpg",
+			"event_id": "dialogic_021"
+		},
+		{
+			"animation": "slide_in_left.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681932524.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1681932524.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh, for the love of God..."
+		},
+		{
+			"character": "character-1681932524.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "(Every day I wake up hoping that it was all just a nightmare. But, checking my phone, those hopes are shattered like a brick through a window every single time.)"
+		},
+		{
+			"character": "character-1681944906.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\"Good morning <3\""
+		},
+		{
+			"character": "character-1681932524.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "God, she's so annoying..."
+		},
+		{
+			"character": "character-1681932524.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "(I mean sure, I AM her boyfriend, but I really don’t need someone telling me good morning every day. I KNOW it's morning, you don’t have to remind me.)"
+		},
+		{
+			"character": "character-1681932524.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I should probably text her back."
+		},
+		{
+			"character": "character-1681932524.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "(What should I say?)"
+		},
+		{
+			"choice": "\"Good morning\"",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1681933632-146",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"character": "character-1681932524.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "(Why did I say that? Now she’s gonna think I want her to keep doing it…)"
+		},
+		{
+			"character": "character-1681944906.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\"Can’t wait to see you today! :D\""
+		},
+		{
+			"character": "character-1681932524.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "(I'm such an idiot...)"
+		},
+		{
+			"choice": "\"Please don't text me again\"",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1681933632-146",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "0"
+		},
+		{
+			"character": "character-1681944906.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\"You’re right, I’d rather talk to you in person! See you soon :3\""
+		},
+		{
+			"character": "character-1681932524.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "(Are you serious? How could I possibly make it more obvious?)"
+		},
+		{
+			"choice": "“Not looking forward to seeing you”",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1681933632-146",
+			"event_id": "dialogic_014",
+			"operation": "-",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"character": "character-1681944906.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\"Sorry, have I been with you too much? I’ll try to respect your space a little more :)\""
+		},
+		{
+			"character": "character-1681932524.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "(Always so polite to me…)"
+		},
+		{
+			"character": "character-1681932524.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "(...)"
+		},
+		{
+			"character": "character-1681932524.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "(What a goody-two-shoes.)"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1681932524.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "(Well, I should probably get going now. Sigh…)"
+		},
+		{
+			"animation": "slide_out_left.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1681932524.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"background": "res://Assets/black-background.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 1
+		},
+		{
+			"change_timeline": "timeline-1681935008.json",
+			"event_id": "dialogic_020"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1681933671.json",
+		"name": "Intro"
+	}
+}
