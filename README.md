@@ -11,7 +11,7 @@ The groups presented their projects in class, and the projects are kept here for
  * [1] Screenshot or gameplay video
 
 The groups included:
- * [20/20](https://github.com/BL-MSHC-C220/Final-Projects-S23/tree/main/20_20)
+ * [20/20](https://github.com/BL-MSCH-C220/Final-Projects-S23/tree/main/20_20)
  * [Cowboy Pirates](https://github.com/BL-MSHC-C220/Final-Projects-S23/tree/main/Cowboy_Pirates)
  * [emag](https://github.com/BL-MSHC-C220/Final-Projects-S23/tree/main/emag)
  * [fallen kingdom](https://github.com/BL-MSHC-C220/Final-Projects-S23/tree/main/fallen_kingdom)
